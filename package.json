@@ -1,0 +1,23 @@
+{
+    "name": "bloom-visual-regression-tests",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5",
+        "vitest": "^0.34.5"
+    },
+    "packageManager": "yarn@1.22.19",
+    "volta": {
+        "node": "18.18.0",
+        "yarn": "1.22.19"
+    },
+    "dependencies": {
+        "child_process": "^1.0.2",
+        "node-fetch": "^3.3.2"
+    }
+}
